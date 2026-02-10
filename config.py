@@ -1,8 +1,3 @@
-# Configuration settings for the bot
+# Configuration for the Telegram Bot
 
-BOT_NAME = "NewBot"
-TOKEN = "your_bot_token_here"
-ADMIN_ID = 123456789
-DEBUG = True
-
-# Add other configurations as necessary
+TELEGRAM_BOT_TOKEN = '7753317724:AAHDTHzNHMAbXQvdGC_em9rd7gQVksZIBbo'
