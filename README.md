@@ -1,63 +1,34 @@
-# Video Downloader Bot Documentation
+# Media Downloader Bot
 
-## مقدمة
+This bot is designed to download media content from various sources efficiently.
 
-هذا بوت لتنزيل مقاطع الفيديو من منصات مختلفة بسهولة وسرعة. يمكنك استخدامه لتحميل مقاطع الفيديو بدقة مختلفة وبسرعة عالية.
+## Features
+- Download images, videos, and audio files.
+- Support for multiple formats.
+- Easy to use and configure.
 
-## متطلبات التثبيت
-
-للاستخدام، تحتاج إلى:
-1. Python 3.6 أو أحدث
-2. المكتبات المطلوبة: `requests`, `pytube`, `bs4`
-   - يمكنك تثبيت هذه المكتبات باستخدام الأمر التالي:
-   ```bash
-   pip install requests pytube beautifulsoup4
-   ```
-
-## تعليمات الإعداد
-
-1. قم بتحميل الكود من المستودع:  
+## Installation
+1. Clone the repository:
    ```bash
    git clone https://github.com/ahmadjamalia84-dotcom/newbot44.git
+   ```
+2. Navigate to the project directory:
+   ```bash
    cd newbot44
    ```
-2. تأكد من أنك في البيئة الصحيحة.
-3. قم بتشغيل السكربت:  
+3. Install the required dependencies:
    ```bash
-   python bot.py
+   npm install
    ```
 
-## دليل الاستخدام
+## Usage
+Run the bot with:
+```bash
+node bot.js
+```
 
-### كيفية تنزيل الفيديو:
-- لإر��ال رسالة إلى البوت مع رابط الفيديو، يجب عليك كتابة:
-  - `download [رابط الفيديو]`
+## Contributing
+Contributions are welcome! Please open an issue or a pull request.
 
-### الأوامر المدعومة:
-- `/start`: لبدء التفاعل مع البوت.
-- `/help`: للحصول على مساعدة حول كيفية استخدام البوت.
-
-## المنصات المدعومة
-
-يمكن للبوت تنزيل الفيديو من:
-- يوتيوب
-- فيمو
-- ديلي موشن
-- و منصات أخرى شائعة.
-
-## الدقة المدعومة
-
-يمكنك الاختيار من بين الدقات التالية:
-- 240p
-- 360p
-- 480p
-- 720p
-- 1080p
-
-## ملاحظات
-- تأكد من أن لديك اتصال بالإنترنت مستقر أثناء استخدام البوت.
-- لا تستخدم البوت لتنزيل مقاطع الفيديو التي تخالف حقوق الطبع والنشر.
-
-## الدعم
-
-إذا كان لديك أي استفسارات أو واجهت مشاكل، يمكنك فتح قضية في المستودع أو الاتصال بنا.
+## License
+This project is licensed under the MIT License.
